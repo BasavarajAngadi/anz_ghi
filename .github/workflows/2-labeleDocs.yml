@@ -1,0 +1,5 @@
+name: 2-Labeler
+on: [pull_request_target]
+jobs:
+  label:
+    runs-on: ubuntu-latest
